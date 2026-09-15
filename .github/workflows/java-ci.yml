@@ -24,3 +24,9 @@ jobs:
 
       - name: Run Java program
         run: java Calculator
+
+      - name: Compile Java
+        run: javac Calculator.java
+
+      - name: Run Java program
+        run: java Calculator
