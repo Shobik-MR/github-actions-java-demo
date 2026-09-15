@@ -20,13 +20,13 @@ jobs:
           distribution: 'temurin'
 
       - name: Compile Java
-        run: javac Calculator.java
+        run: javac Calculator.java 
 
       - name: Run Java program
         run: java Calculator
 
       - name: Compile Java
-        run: javac Calculator.java
+        run: javac CalculatorTest.java
 
       - name: Run Java program
-        run: java Calculator
+        run: java CalculatorTest
